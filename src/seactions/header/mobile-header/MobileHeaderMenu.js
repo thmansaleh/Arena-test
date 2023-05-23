@@ -16,11 +16,11 @@ const MobileHeaderMenu = () => {
     <img  src={logo} alt='' />
     <img  onClick={openMenu} src={menuIcon} alt='' />
   </div>
-  <div ref={mobileMenu} id="moblie-nav" className="mobile-nav">
-    <a href="#">home</a>
-    <a href="#">home</a>
-    <a href="#">home</a>
-    <a href="#">home</a>
+  <div ref={mobileMenu} className="mobile-nav">
+    <a href="#">COMBARISON</a>
+    <a href="#">BOND</a>
+    <a href="#">TESTIMONIALS</a>
+    <a href="#">CONTACT</a>
   </div>
 
     </>
