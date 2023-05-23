@@ -1,0 +1,85 @@
+ 
+  .last-section {
+    
+    padding: 20px 20px;
+}
+.book-title{
+    
+    color: #a97500;
+    font-weight: 600;
+    margin: 10px 0;}
+
+  .last-section >form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 
+  }
+  .last-section>p{
+    margin-top: 30px;
+    font-weight: 400;
+  }
+  .last-section>span{
+    color: #a97500;
+    font-weight: 400;  }
+  .last-section >form>button{
+    background: #94710F;
+    color: white;
+    border-radius: 7px;
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    margin-top: 15px;
+  }
+  .last-section >form>div{
+    width: 100%;
+    margin: 15px 0;
+  
+  }
+  .last-section >form>div>label{
+    display: block;
+    padding: 10px 0;
+  }
+  .last-section >form>div>input,select,textarea{
+    width: 100%;
+    padding: 20px ;
+    outline: none;
+    border: none ;
+    background: #eee;
+    border-radius: 7px 
+  }
+  .PhoneInputInput{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    background: #eee;
+    border-radius: 7px;
+  }
+  .last-section >form>div:last-child{
+    width: 100% !important;
+  }
+  .last-section >form>div:last-child>button{
+    background: #94710F;
+    color: white;
+    border-radius: 7px;
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    margin-top: 15px;
+  }
+  @media (min-width: 600px) {
+    
+  .last-section {
+    
+    padding: 20px 0px 20px 70px;
+}
+.last-section >form>div{
+    width: 45%;
+  
+  }
+  .last-section >form>div:last-child>button{
+    width: 45%;
+  }
+
+}

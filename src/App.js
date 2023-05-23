@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import FirstSection from "./seactions/first-section/FirstSection";
+import Header from "./seactions/header/Header";
+import MobileHeaderMenu from "./seactions/header/mobile-header/MobileHeaderMenu";
+import LastSection from "./seactions/last-section/LastSection";
+import MiddleSection from "./seactions/second-section/MiddleSection";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <Header/>
+  <MobileHeaderMenu/>
+  <FirstSection/>
+  <MiddleSection/>
+  <LastSection/>
     </div>
   );
 }
